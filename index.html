@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Project</title>
 
-  <!-- Tailwind MUST come first -->
-  <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind MUST come first -->
+    <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- DaisyUI MUST come after Tailwind
+    <!-- DaisyUI MUST come after Tailwind
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" /> -->
 
 </head>
@@ -27,7 +27,9 @@
                 <a href="#" title="Write"><img src="images/pen.png" alt=""></a>
                 <a href="#" title="Friends"><img src="images/friend.png" alt=""></a>
                 <a href="#" title="Notifications"><img src="images/flag.png" alt=""></a>
-                <button id="signInBtn" class="btn btn-active bg-[#797DFC] px-3 md:px-6 lg:px-8 py-1.5 rounded-[25px] text-wrap text-base md:text-lg lg:text-xl text-white">Sign In</button>
+                <button id="signInBtn"
+                    class="btn btn-active bg-[#797DFC] px-3 md:px-6 lg:px-8 py-1.5 rounded-[25px] text-wrap text-base md:text-lg lg:text-xl text-white">Sign
+                    In</button>
             </div>
         </nav>
         <!-- Banner Section starts here -->
@@ -38,11 +40,15 @@
             <div class="flex sm:flex-col md:flex-col lg:flex-row  absolute top-[40px] left-[35px]">
                 <!-- mother div -->
                 <div class="leftChild w-[520px] ml-[20px]">
-                    <h1 class="leading-tight text-white text-[64px] font-bold w-[504px] mb-[10px]">Welcome to the <span class="text-[#7579F4] ">ReTro</span> Forum</h1>
-                    <p class="w-[410px] text-xl text-white mb-[18px]">Share your favorite opinion and win a wp forum coffee mug!</p>
+                    <h1 class="leading-tight text-white text-[64px] font-bold w-[504px] mb-[10px]">Welcome to the <span
+                            class="text-[#7579F4] ">ReTro</span> Forum</h1>
+                    <p class="w-[410px] text-xl text-white mb-[18px]">Share your favorite opinion and win a wp forum
+                        coffee mug!</p>
                     <div class="inputANDsearch relative ">
-                        <input class="w-[410px] h-[44px] rounded-[25px] px-8" type="text" placeholder="search here anything">
-                        <button class="absolute btn btn-active bg-[#797DFC] rounded-[25px]     left-[294px] top-[4px] px-3 md:px-6 lg:px-8 py-1.5 text-white">Search</button>
+                        <input class="w-[410px] h-[44px] rounded-[25px] px-8" type="text"
+                            placeholder="search here anything">
+                        <button
+                            class="absolute btn btn-active bg-[#797DFC] rounded-[25px]     left-[294px] top-[4px] px-3 md:px-6 lg:px-8 py-1.5 text-white">Search</button>
                     </div>
                 </div>
                 <div class="rightChild w-[520px]">
@@ -55,8 +61,10 @@
                             <td class="p-3">Forum</td>
                             <td class="p-3">05</td>
                         </tr>
-                        <tr><td class="p-3">Topics</td>
-                            <td class="p-3">03</td></tr>
+                        <tr>
+                            <td class="p-3">Topics</td>
+                            <td class="p-3">03</td>
+                        </tr>
                         <tr>
                             <td class="p-3">Replies</td>
                             <td class="p-3">01</td>
@@ -66,11 +74,54 @@
             </div>
         </div>
     </header>
-
     <main>
-     
+        <!-- FirstSection  -->
+        <section class="my-[120px] container w-[85vw] mx-auto">
+            <div class="text-center mb-[30px]">
+                <h1 class="text-5xl font-black ml-[150px] mb-[25px]">Let's Discuss</h1>
+                <p class=" text-[18px] w-[691px] ml-[330px]">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined.
+                </p>
+            </div>
+            <div id="dynamicDiv1" class="flex">
+                <div id="postContainer" class="w-[59vw]">
+
+                </div>
+                <div id="modalContainer" class="w-[25vw] border rounded-[20px] m-[15px] bg-[#F3F3F4]">
+                    <div class="flex justify-between mt-[20px] px-[5px]">
+                        <span class="text-xl font-bold">Title</span> <span class="text-lg font-bold">Mark as read</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- SecondSection -->
+        <section class="my-[120px] container w-[85vw] mx-auto">
+            <div class="Banner2 bg-[#12132D] text-white flex py-10">
+                <div class="leftChilds2 w-[55vw] pt-[55px] pl-[125px]">
+                    <h2 class="text-[64px] font-bold">Join Our Forum</h2>
+                    <p class="text-[18px] w-[80%] mb-[15px]">Share your favorite opinion and win wp forum coffee mug!
+                        Yes, you can run unit tests and view the results directly within the app.</p>
+                    <button class="px-12 bg-[#797DFC] py-2 rounded-[24px]">Registered Now</button>
+                </div>
+                <div class="rightChilds2 w-[30vw]">
+                    <img src="images/joinforum.png" alt="">
+                </div>
+            </div>
+            <div class=" my-[30px]">
+                <div class="text-center w-[50%] ml-[300px]">
+                    <h1 class="text-5xl font-black mb-[25px]">Latest Posts</h1>
+                    <p class="text-[18px]">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined.
+                    </p>
+                </div>
+            </div>
+            <div id="latestPostContainer" class=" grid grid-cols-3 gap-6">
+
+            </div>
+        </section>
     </main>
-    <!-- <footer class="justify-items-center bg-[#F5F5F6] pt-[5px] pb-[30px]">
+    <footer class="justify-items-center bg-[#F5F5F6] pt-[5px] pb-[30px]">
         <div class="justify-items-center w-[410px] mt-[50px] md:w-[705px] lg:w-[970px] h-[117px];  ">
             <img src="images/logo.png" alt="">
             <p class="w-[300px] md:w-[450px] lg:w-[604px] mt-[25px] text-center mb-[25px] text-xl;">Contrary to popular
@@ -90,7 +141,7 @@
             2017, All Rights Reserved.
         </p>
 
-    </footer> -->
+    </footer>
     <script src="js/script.js"></script>
 </body>
 
